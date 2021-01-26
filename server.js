@@ -45,11 +45,11 @@ app.get('*', function (req, res) {
 });
 
 // Ping Heroku server every 5 min to prevent sleep
-/*
+
 const serverFetch = require('https');
 setInterval( () => {
   serverFetch.get('https://front-pages-dev.herokuapp.com/');
-}, 300000); */
+}, 300000);
 
 
 // Import scraper scripts
