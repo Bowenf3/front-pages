@@ -1,0 +1,34 @@
+.ArticleScrollWrapper {
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 25vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 100vw;
+      scroll-snap-type: x mandatory;  
+}
+
+.ArticleTile {
+    width: 100vw;
+    /* background-color: green; */
+    margin: 0.1vh 0.8vw;
+    display: inline-block;
+    scroll-snap-align: start;
+}
+
+.tileText {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyTileText {
+    font-size: 3.4vw;
+}
+
